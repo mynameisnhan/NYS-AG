@@ -1,8 +1,8 @@
 # NYS-AG
-Goal: Predicting duration of lawsuit based on features such as case complexity, municipality, judge, lawyer, motion information, etc.
+The Office of the New York State Attorney General wanted the group to test 1) whether duration of lawsuit could be predicted based on features such as case complexity, municipality, judge, lawyer, motion information, etc. and 2) whether random forest would be a viable model for such a task.
 
 ## Dataset
-Dataset was retrieved from the Office of the NY State Attorney General's database and not included for privacy reasons.
+Dataset was retrieved from the Office of the New York State Attorney General's database and not included for privacy reasons.
 
 ## To Run
 Go to command prompt
