@@ -13,10 +13,10 @@ def select_k_importances(model, x, k):
 ### -------------------
 
 '''
-x_train = pd.read_csv("d_x_test.csv")
-y_train = pd.read_csv("d_y_test.csv", names=['actual'])
-x_test = pd.read_csv("d_x_test.csv")
-y_test = pd.read_csv("d_y_test.csv", names=['actual'])
+x_train = pd.read_csv("x_train.csv")
+y_train = pd.read_csv("y_train.csv", names=['actual'])
+x_test = pd.read_csv("x_test.csv")
+y_test = pd.read_csv("y_test.csv", names=['actual'])
 '''
 
 def model(x_train, y_train, x_validation, y_validation):
