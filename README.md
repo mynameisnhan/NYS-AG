@@ -11,7 +11,7 @@ To run, type: python main.py
 
 ## Findings
 1. Case duration prediction is possible. Our random forest achieved an acceptable R-squared value of 0.7.
-2. With the given dataset, only the most important 15 features (selected using random-forest-based stepwise regression) are needed to achieve an acceptable performance (R-squared = 0.7).
+2. With the given dataset, only the most important 15 features (feature-engineered using random-forest-based stepwise regression) are needed to achieve an acceptable performance (R-squared = 0.7).
 3. Performance stagnated at R-squared = 0.7 after after 15 features.
 4. There is a non-linear relationship between case attributes and case length.
 
@@ -21,4 +21,4 @@ DataProc2.py currently takes over 1 week to finish running. Because datetime con
 A possible alternative is that, for each date attribute, we could convert the YMD input to number of days elapsed since the very first day ever recorded in the database (which should be smallest value in "cas1rjidat") and increase our counter with each passing date. Because converting integer to integer is faster than to datetime and because integer math is faster than datetime math, I would expect significant improvement in runtime.
 
 ## Notes
-Files with experiments on feature engineering, one-hot encoding, and alternate models were lost. All experimental methods were ineffective.
+Files with experiments comparing various feature engineering methods, whether to one-hot encode, and alternate regression models were lost. (But it is okay because all experimentals excluded from our final files were ineffective anyway.)
