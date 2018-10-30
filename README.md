@@ -6,7 +6,9 @@ Data was retrieved from the Office of the New York State Attorney General's data
 
 ## To Run
 Go to command prompt
+
 Change directory to project folder
+
 To run, type: python main.py
 
 ## Findings
