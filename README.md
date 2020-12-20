@@ -1,4 +1,4 @@
-# NYS-AG
+# NYS AG
 The Office of the New York State Attorney General wanted our group to test 1) whether lawsuit duration could be predicted based on features such as case complexity, municipality, judge, lawyer, motion information, etc. and 2) whether random forest would be a viable model for such a task.
 
 ## Dataset
